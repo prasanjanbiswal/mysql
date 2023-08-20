@@ -7,9 +7,9 @@ select count(*)from car_dekho;
 -- how many cars will be able be available in 2023? --
 select count(*) from car_dekho where year = 2023;
 -- how many cars will be available for 2020,2021,2022 --
-select count(*) from car_dekho where year = 2020; #74
-select count(*) from car_dekho where year = 2021; #7
-select count(*) from car_dekho where year = 2022; #7
+select count(*) from car_dekho where year = 2020; 
+select count(*) from car_dekho where year = 2021; 
+select count(*) from car_dekho where year = 2022; 
  -- group by --
 -- select count(*) from car_dekho where year is (2020,2021,2022) group by year; -- 
 -- 88 --
